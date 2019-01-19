@@ -1,0 +1,5 @@
+<ul>
+  <% @posts["data"]["children"].each do |post| %>
+    <li><%= post["data"]["title"] %></li>
+  <% end %>
+</ul>
